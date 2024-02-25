@@ -1,6 +1,6 @@
 import datetime
 
-print("Привет, Сергей Андреевич!")
+print("Привет, Мир!")
 #Конец задания №1
 print("\n")
 typeNone = None
