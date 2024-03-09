@@ -51,6 +51,38 @@ def funct7():
     Fname="Олег"
     Mname="Игоревич"
     Lname="Воротилкин"
+    FullName = Fname + Mname + Lname
+    i=0
+    spis=[]
+    resultSpis=''
+    for spisok in FullName:
+        spis.append(FullName[i])
+        i+=1
+    
+    print(resultSpis.join(spis))
+
+    index=0
+    while index <= len(FullName )-1:
+        print(FullName[index] + ' - ' + str(index))
+        index +=1
+    print(FullName.find("а"))
+
 funct7()
 
 #Конец задания 8
+
+def funct8(start = 0, end = 100):
+    return random.randrange(start // 2, end // 2) * 2 + 1
+ 
+print(funct8())
+
+#Конец задания 9
+
+def funct9(firstNum, secondNum):
+    if(firstNum and secondNum != 0):
+        return firstNum / secondNum 
+    else:
+        print("одно из чисел = 0")
+print(funct9(2,1))
+
+#Конец задания 10
