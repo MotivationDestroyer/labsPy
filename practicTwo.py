@@ -1,6 +1,6 @@
 import random
 def funct():
-    print("«Привет, мир!")
+    print("Привет, мир!")
 funct()
 
 def funct2(name):
@@ -22,7 +22,7 @@ funct4()
 
 def funct5(num):
     if(num >33):
-        print("Указано не правильное число!")
+        print("Указано неправильное число!")
     else:
         return chr(num + ord('а'))
 print(funct5(6))
